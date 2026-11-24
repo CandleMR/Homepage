@@ -1,0 +1,26 @@
+a {
+    color: red;
+    font-size : 20px;
+}
+.domo {
+    padding: 5px;
+    margin: 0 auto;
+}
+#end {
+    font-family: Georgia, serif;
+    color: red;
+}
+nav ul{
+    list-style-type: none;
+}
+a:hover{
+    color: black;
+
+
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+    a:hover{
+        color: white;}
+}

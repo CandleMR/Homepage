@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <botton id="Candle" class="btn btn-warning">Extinguish The Candle</botton>
+        <h1>hello, homepage</h1>
+        <h4>This wepsite is about my story with friends and handsome people</h4>
+        <h6>first I suggest you to start with - <a href="Lucius.html"> My frist friend Lucius</a></h6>
+        <h6>after read it you can start with the longest and deeper - <a href="Ivan.html">My second friend Ivan</a></h6>
+        <h6 id ="end">finally you arrived to the end of my story - <a href="Mark.html">My third friend Mark</a></h6>
+   <hr class="domo">
+<nav>
+    <ul>
+        <li class="domo"><a href="index.html">Main Page</a></li>
+        <li class="domo"><a href="Lucius.html">Lucius</a></li>
+        <li class="domo"><a href="Ivan.html">Ivan</a></li>
+        <li class="domo"><a href="Mark.html">Mark</a></li>
+    </ul>
+</nav>
+<script>
+    let btn = document.querySelector('#Candle')
+    let body = document.querySelector('body')
+    btn.addEventListener('click', function() { body.classList.toggle('dark-mode') })
+</script>
+</body>
